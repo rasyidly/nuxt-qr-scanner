@@ -14,6 +14,7 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "html5-qrcode": "^2.3.8",
     "nuxt": "^3.7.3",
-    "qrcode": "^1.5.3"
+    "qrcode": "^1.5.3",
+    "simple-json-db": "^2.0.0"
   }
 }
