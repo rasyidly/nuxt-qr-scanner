@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <p>Sampai ketemu di <NuxtLink class="text-red-800" to="https://maps.app.goo.gl/RJiJ9Aovqh54NMMg8" target="_blank" :external="true">Balai Sarbini</NuxtLink> :))</p>
+                <p>Sampai ketemu di <NuxtLink class="text-red-800" to="https://maps.app.goo.gl/RJiJ9Aovqh54NMMg8" target="_blank" :external="true">Balai Sarbini, Jakarta</NuxtLink> :))</p>
             </div>
             <div class="text-sm text-slate-500">Powered by <NuxtLink class="text-red-800" to="https://islami.co" :external="true">islami.co</NuxtLink>
             </div>
