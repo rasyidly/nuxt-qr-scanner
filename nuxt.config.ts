@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     'notivue/animations.css'
   ],
   notivue: {
-    limit: 4
+    limit: 1
   },
   devtools: { enabled: false }
 })
