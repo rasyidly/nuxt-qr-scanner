@@ -4,12 +4,12 @@
             <div class="w-36">
                 <IslamiLogo />
             </div>
-            <div class="rounded bg-white p-8 space-y-8 text-center">
+            <div class="rounded bg-white p-8 space-y-6 text-center">
                 <h1 class="font-bold text-3xl">Selamat {{ registrant?.name }}</h1>
                 <div class="space-y-4">
                     <p>Berikut adalah QR Code Kamu!</p>
                     <div class="rounded-lg px-2 py-2 border border-dashed font-bold text-red-600 border-red-600">
-                        Silahkan Screenshot dan bawa ke lokasi Festival SATF
+                        Silakan Screenshot dan bawa ke lokasi Festival SATF
                     </div>
                     <div id="qrcode">
                         <img v-if="qr" :src="qr" class="w-48 h-48" alt="">
@@ -36,9 +36,9 @@
                         </div>
                     </div>
                 </div>
-                <p>Sampai ketemu di Balai Sarbini :))</p>
+                <p>Sampai ketemu di <NuxtLink class="text-red-800" to="https://maps.app.goo.gl/RJiJ9Aovqh54NMMg8" target="_blank" :external="true">Balai Sarbini</NuxtLink> :))</p>
             </div>
-            <div class="text-sm text-slate-500">Powered by <NuxtLink class="text-red-500" to="https://islami.co" :external="true">islami.co</NuxtLink>
+            <div class="text-sm text-slate-500">Powered by <NuxtLink class="text-red-800" to="https://islami.co" :external="true">islami.co</NuxtLink>
             </div>
         </div>
     </div>
