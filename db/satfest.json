@@ -1,9 +1,1 @@
-{
-    "registrants": [
-        {
-            "id": "rasyid@sekeco.id",
-            "name": "Rasyid Ridho",
-            "p": false
-        }
-    ]
-}
+{"registrants":[{"id":"support@pemad.or.id","name":"Rasyid Ridho","p":true}]}
