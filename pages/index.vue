@@ -1,8 +1,5 @@
 <template>
-    <h1>Welcome</h1>
+    <div class="grid place-items-center min-h-screen">
+        <p class="text-center">Hi, welcome to QR Islami.co!</p>
+    </div>
 </template>
-
-<script setup>
-const { data } = await useAsyncData('satfest', () => queryContent('/satfest').findOne())
-console.log(data)
-</script>
