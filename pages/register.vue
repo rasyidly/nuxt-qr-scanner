@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <p>Silakan screenshot dan bawa besok ke lokasi</p>
+                <p>Silakan Screenshot dan bawa ke lokasi Festival SATF</p>
             </div>
             <div class="text-sm text-slate-500">Powered by <NuxtLink class="text-red-500" to="https://islami.co" :external="true">islami.co</NuxtLink>
             </div>
