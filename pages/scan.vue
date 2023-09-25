@@ -54,7 +54,7 @@ const openScanner = async (status = true) => {
                 email: text
             }
         });
-        s.pause();
+        s.clear();
         scanner.value = false;
         if (data.value.id) {
             name.value = data.value.name;
