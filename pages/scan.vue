@@ -38,6 +38,7 @@ canvas#qr-canvas-visible {
 import { Html5QrcodeScanner } from "html5-qrcode";
 import { useFetch } from "nuxt/app";
 
+const push = usePush();
 const registrant = ref({});
 
 const scanner = ref(false);
@@ -55,12 +56,22 @@ const openScanner = async (status = true) => {
             }
         });
         s.clear();
+        id.value = '';
         scanner.value = false;
         if (data.value.id) {
             name.value = data.value.name;
             id.value = data.value.id;
-        };
-    }, (e) => console.log(e));
+            push.info({
+                title: 'Datanya ketemu',
+                message: 'Tanyain namanya, kalo bener baru pencet "Hadir"'
+            });
+        } else {
+            push.error({
+                title: 'QR Codenya gak valid!',
+                message: 'Pasti dia belum/gak daftar daftar resmi.'
+            });
+        }
+    }, (e) => { });
 }
 
 const markAsPresent = async (email) => {
@@ -70,6 +81,10 @@ const markAsPresent = async (email) => {
             email: id,
             p: true
         }
+    });
+    push.success({
+        title: 'Kiu Kiu!',
+        message: `Doi berhasil ditandai sebagai hadir.`
     });
     name.value = 'OK, makasih, selanjutnya.';
     id.value = '';
