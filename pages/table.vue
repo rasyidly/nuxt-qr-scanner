@@ -12,5 +12,5 @@
 </template>
 
 <script setup>
-import { registrants } from '~/db/satfest'
+import { registrants } from '~/db/pulangkampus'
 </script>

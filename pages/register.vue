@@ -9,7 +9,7 @@
                 <div class="space-y-4">
                     <p>Berikut adalah QR Code Kamu!</p>
                     <div class="rounded-lg px-2 py-2 border border-dashed font-bold text-red-600 border-red-600">
-                        Silakan Screenshot dan bawa ke lokasi Festival SATF
+                        Silakan Screenshot dan bawa ke lokasi Pulang Kampu(ng)s
                     </div>
                     <div id="qrcode">
                         <img v-if="qr" :src="qr" class="w-48 h-48" alt="">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <p>Sampai ketemu di <NuxtLink class="text-red-800" to="https://maps.app.goo.gl/RJiJ9Aovqh54NMMg8" target="_blank" :external="true">Balai Sarbini, Jakarta</NuxtLink> :))</p>
+                <p>Sampai ketemu di <NuxtLink class="text-red-800" to="https://maps.app.goo.gl/z9SULRXTZcJu6FEd7?g_st=iw" target="_blank" :external="true">Ruang Teater Lantai IV Fakultas Ushuluddin UIN Syarif Hidayatullah Jakarta</NuxtLink> :))</p>
             </div>
             <div class="text-sm text-slate-500">Powered by <NuxtLink class="text-red-800" to="https://islami.co" :external="true">islami.co</NuxtLink>
             </div>

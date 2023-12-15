@@ -2,7 +2,7 @@ import { JsonDB, Config } from "node-json-db";
 
 export default defineEventHandler(async (event) => {
 	const body = await readBody(event);
-	const db = new JsonDB(new Config(`~/../db/satfest`, true, false, "/"));
+	const db = new JsonDB(new Config(`~/../db/pulangkampus`, true, false, "/"));
 	let qr = "";
 
 	const registrant = {
