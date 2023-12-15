@@ -1,7 +1,7 @@
 module.exports = {
 	apps: [
 		{
-			name: "NuxtAppName",
+			name: "QRIslamiCo",
 			port: "5002",
 			exec_mode: "cluster",
 			instances: "max",
